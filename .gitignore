@@ -1,1 +1,27 @@
-!.*
+# Ignore everything by default
+*
+
+# Zsh
+!.zshrc
+!.zsh
+!.zsh/*
+!.oh-my-zsh
+!.oh-my-zsh/*
+
+# Config files
+!.config
+!.config/*
+
+# Tmux
+!.tmux
+!.tmux/*
+
+# Vim
+!.vimrc
+!.vim
+!.vim/*
+
+# X
+!.Xauthority
+!.Xinitrc
+!.Xresources
