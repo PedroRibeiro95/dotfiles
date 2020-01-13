@@ -25,3 +25,6 @@
 !.Xauthority
 !.Xinitrc
 !.Xresources
+
+# Pacman packages
+!.pacman
