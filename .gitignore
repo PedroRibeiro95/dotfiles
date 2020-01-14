@@ -11,10 +11,12 @@
 # Config files
 !.config
 !.config/*
+!.config/*/*
 
 # Tmux
 !.tmux
 !.tmux/*
+!.tmux/*/*
 
 # Vim
 !.vimrc
