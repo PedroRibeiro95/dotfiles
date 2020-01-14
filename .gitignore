@@ -8,6 +8,7 @@
 !.oh-my-zsh
 !.oh-my-zsh/*
 !.oh-my-zsh/*/*
+!.oh-my-zsh/*/*/*
 
 # Config files
 !.config
@@ -25,6 +26,10 @@
 !.vimrc
 !.vim
 !.vim/*
+!.vim/bundle/Vundle.vim/*
+!.vim/autoload/*
+!.vim/plugged/*
+!.vim/plugged/*/*
 
 # X
 !.Xauthority
