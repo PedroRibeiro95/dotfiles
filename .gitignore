@@ -7,11 +7,14 @@
 !.zsh/*
 !.oh-my-zsh
 !.oh-my-zsh/*
+!.oh-my-zsh/*/*
 
 # Config files
 !.config
 !.config/*
 !.config/*/*
+!.config/nitrogen/wallpapers/*
+!.config/polybar/scripts/*
 
 # Tmux
 !.tmux
