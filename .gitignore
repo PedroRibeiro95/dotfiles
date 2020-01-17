@@ -39,3 +39,8 @@
 
 # Pacman packages
 !.pacman
+
+# Images
+!background.png
+!terminal.png
+!*.md
