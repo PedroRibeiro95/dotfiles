@@ -41,5 +41,6 @@
 !.pacman
 
 # Images
+!screenshots/
 !screenshots/*
 !*.md
