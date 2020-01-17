@@ -41,6 +41,5 @@
 !.pacman
 
 # Images
-!background.png
-!terminal.png
+!screenshots/*
 !*.md
