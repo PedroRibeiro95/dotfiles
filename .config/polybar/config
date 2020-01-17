@@ -1,6 +1,6 @@
 [bar/i3wmthemer_bar]
 width = 100%
-height = 27
+height = 30
 # height = 27
 radius = 0
 fixed-center = true
@@ -25,10 +25,10 @@ padding-right = 0
 # module-margin-right = 1
 
 #font-0 = "Source Code Pro Semibold:size=10;1"
-font-0 = "Fire Mono:size=10;1"
-font-1 = "Font Awesome 5 Free Solid:style=Solid:size=10;1"
-font-2 = "Font Awesome 5 Brands:size=10;1"
-font-3 = "Font Awesome 5 Free Regular:size=10;1"
+font-0 = "Fire Mono:size=13;1"
+font-1 = "Font Awesome 5 Free Solid:style=Solid:size=13;1"
+font-2 = "Font Awesome 5 Brands:size=13;1"
+font-3 = "Font Awesome 5 Free Regular:size=13;1"
 
 modules-left = i3
 modules-center = powermenu
@@ -127,8 +127,8 @@ format-padding = 2
 
 label =  %output%%
 
-scroll-up = macbook-lighter-screen --inc 250 
-scroll-down = macbook-lighter-screen --dec 250
+scroll-up = xbacklight -ctrl intel_backlight -inc 5
+scroll-down = xbacklight -ctrl intel_backlight -dec 5
 
 [module/curr_brightness_kb]
 type = custom/script
@@ -143,8 +143,8 @@ format-padding = 2
 
 label =  %output%%
 
-scroll-up = macbook-lighter-kbd --inc 25 
-scroll-down = macbook-lighter-kbd --dec 25
+scroll-up = xbacklight -ctrl tpacpi::kbd_backlight -inc 50 
+scroll-down = xbacklight -ctrl tpacpi::kbd_backlight -dec 50
 
 [module/wlan]
 type = internal/network

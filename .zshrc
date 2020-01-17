@@ -71,6 +71,7 @@ ZSH_THEME="oxide"
 plugins=(
 	git
 	zsh-autosuggestions
+	kube-ps1
 	)
 
 source $ZSH/oh-my-zsh.sh
@@ -100,4 +101,4 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-source /home/cooper/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /home/cooper/Documents/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
