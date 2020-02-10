@@ -44,3 +44,8 @@
 !screenshots/
 !screenshots/*
 !*.md
+
+# Git
+!*/.git/
+!*/.gitignore/
+!*/.github/
