@@ -3,7 +3,7 @@ set $mod Mod4
 new_window pixel 1
 new_float normal
 
-hide_edge_borders none
+hide_edge_borders smart 
 
 bindsym $mod+u border none
 bindsym $mod+y border pixel 1
@@ -207,7 +207,7 @@ mode "resize" {
 }
 
 # Autostart applications
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b
+exec --no-startup-id nitrogen --restore; sleep 1; compton -b --blur-background
 exec --no-startup-id nm-applet
 # exec --no-startup-id xfce4-power-manager
 exec --no-startup-id pamac-tray
@@ -290,7 +290,7 @@ bindsym XF86TouchpadOff exec --no-startup-id synclient Touchpadoff=1
 exec setxkbmap -layout us -variant intl
 
 # Activates xscreensaver
-exec xscreensaver -no-splash &
+# exec xscreensaver -no-splash &
 
 # Keybinds for resizing panes
 # Resizing by 1
@@ -316,4 +316,10 @@ bindsym --release Print exec --no-startup-id scrot -u
 bindsym --release $mod+Print exec --no-startup-id $HOME/.config/i3/scripts/scrot-select.sh 
 
 # Lock screen
-bindsym $mod+Shift+h exec --no-startup-id i3lock-fancy -- maim
+bindsym $mod+Shift+h exec --no-startup-id betterlockscreen -l 
+
+# Set resolution for double screen
+exec --no-startup-id $HOME/.screenlayout/layout.sh
+
+# Activate redshift
+exec --no-startup-id redshift -l 38.776366:-9.279563

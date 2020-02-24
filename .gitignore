@@ -46,6 +46,7 @@
 !*.md
 
 # Git
-!*/.git/
-!*/.gitignore/
-!*/.github/
+*/.git/
+*/.gitignore/
+*/.github/
+*/.gitignore

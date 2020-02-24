@@ -68,10 +68,10 @@ color8  = #944511
 
 # red
 color1  = #a55918
-color9  = #1a6546
+color9  = #ff5d03
 
 # green
-color2  = #11a797
+color2  = #c8511a
 color10 = #eabe70
 
 # yellow
@@ -84,15 +84,15 @@ color12 = #56b39f
 
 # magenta
 color5  = #828688
-color13 = #65afd2
+color13 = #d29965
 
 # cyan
 color6  = #acb1b5
-color14 = #2b9b9d
+color14 = #4a9e78
 
 # white
-color7  = #77a9c2
-color15 = #dd799f
+color7  = #c68b22
+color15 = #fa3b00
 
 [hints]
 #font = Monospace 12
