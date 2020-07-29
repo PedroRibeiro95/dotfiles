@@ -28,10 +28,10 @@ autoload -Uz vcs_info
 
 # Use True color (24-bit) if available.
 if [[ "${terminfo[colors]}" -ge 256 ]]; then
-    oxide_turquoise="%F{73}"
+    oxide_turquoise="%F{#9f6d4e}"
     oxide_orange="%F{179}"
     oxide_red="%F{167}"
-    oxide_limegreen="%F{107}"
+    oxide_limegreen="%F{#fead7a}"
 else
     oxide_turquoise="%F{cyan}"
     oxide_orange="%F{yellow}"

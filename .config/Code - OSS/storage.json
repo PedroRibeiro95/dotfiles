@@ -2,12 +2,32 @@
     "telemetry.machineId": "608fb7a26231ae0b8499273c3deacf5f459276be70bdd6df20bee64a942ca378",
     "openedPathsList": {
         "workspaces3": [
+            "file:///home/cooper/Documents/Unbabel/onomata",
+            "file:///home/cooper/Documents/Unbabel",
+            "file:///home/cooper/Documents/Unbabel/terraform/production/service-hub",
+            "file:///home/cooper/Documents/Unbabel/terraform-modules/aws/blueprint/gitlab_runners",
             "file:///home/cooper/Documents/Unbabel/terraform-modules",
+            "file:///home/cooper/Documents/Unbabel/k8s/prometheus/clusters/production",
+            "file:///home/cooper/Documents/Unbabel/k8s",
+            "file:///home/cooper/Documents/Unbabel/k8s/policies/templates/prohibitedresources",
+            "file:///home/cooper/Documents/projects/syla",
             "file:///home/cooper/Documents/Unbabel/heimdall",
+            "file:///home/cooper/Documents/Unbabel/terraform",
+            "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas",
             "file:///home/cooper/Documents/heimdall",
             "file:///home/cooper/Documents/thanos4grafana"
         ],
-        "files2": []
+        "files2": [
+            "file:///home/cooper/Documents/Unbabel/onomata/api/openapi.yaml",
+            "file:///home/cooper/Documents/Unbabel/onoma/api/openapi.yaml",
+            "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/variables.tf",
+            "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/restore_snapshot.tf",
+            "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/README.md",
+            "file:///home/cooper/Documents/Unbabel/terraform/production/service-hub/gitlab_runners.tf",
+            "file:///home/cooper/Documents/Unbabel/k8s/prometheus/clusters/service-hub/prometheus-scrape-template.tmpl",
+            "file:///home/cooper/Documents/Unbabel/terraform/aws/staging/resources/rds/pgsql_rds.tf",
+            "file:///home/cooper/Documents/Unbabel/k8s/devops/pypicloud/pypicloud-config.yaml"
+        ]
     },
     "lastKnownMenubarData": {
         "menus": {
@@ -52,13 +72,101 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/cooper/Documents/Unbabel/terraform-modules",
+                                        "fsPath": "/home/cooper/Documents/Unbabel/onomata",
+                                        "external": "file:///home/cooper/Documents/Unbabel/onomata",
+                                        "path": "/home/cooper/Documents/Unbabel/onomata",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/onomata"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel",
+                                        "path": "/home/cooper/Documents/Unbabel",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform/production/service-hub",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform/production/service-hub",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform/production/service-hub"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform-modules/aws/blueprint/gitlab_runners",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform-modules/aws/blueprint/gitlab_runners",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform-modules/aws/blueprint/gitlab_runners"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/cooper/Documents/Unbabel/terraform-modules",
                                         "path": "/home/cooper/Documents/Unbabel/terraform-modules",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
                                     "label": "~/Documents/Unbabel/terraform-modules"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/k8s/prometheus/clusters/production",
+                                        "path": "/home/cooper/Documents/Unbabel/k8s/prometheus/clusters/production",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/k8s/prometheus/clusters/production"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/k8s",
+                                        "path": "/home/cooper/Documents/Unbabel/k8s",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/k8s"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/k8s/policies/templates/prohibitedresources",
+                                        "path": "/home/cooper/Documents/Unbabel/k8s/policies/templates/prohibitedresources",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/k8s/policies/templates/prohibitedresources"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/projects/syla",
+                                        "path": "/home/cooper/Documents/projects/syla",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/projects/syla"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -72,26 +180,106 @@
                                     "label": "~/Documents/Unbabel/heimdall"
                                 },
                                 {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
-                                        "external": "file:///home/cooper/Documents/heimdall",
-                                        "path": "/home/cooper/Documents/heimdall",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/Documents/heimdall"
+                                    "id": "vscode.menubar.separator"
                                 },
                                 {
-                                    "id": "openRecentFolder",
+                                    "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/cooper/Documents/thanos4grafana",
-                                        "path": "/home/cooper/Documents/thanos4grafana",
+                                        "external": "file:///home/cooper/Documents/Unbabel/onomata/api/openapi.yaml",
+                                        "path": "/home/cooper/Documents/Unbabel/onomata/api/openapi.yaml",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Documents/thanos4grafana"
+                                    "label": "~/Documents/Unbabel/onomata/api/openapi.yaml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/onoma/api/openapi.yaml",
+                                        "path": "/home/cooper/Documents/Unbabel/onoma/api/openapi.yaml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/onoma/api/openapi.yaml"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/variables.tf",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/variables.tf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/variables.tf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/restore_snapshot.tf",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/restore_snapshot.tf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/restore_snapshot.tf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/README.md",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/README.md",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform-modules/mongo_atlas/block/atlas_restore_snapshot/README.md"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform/production/service-hub/gitlab_runners.tf",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform/production/service-hub/gitlab_runners.tf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform/production/service-hub/gitlab_runners.tf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/k8s/prometheus/clusters/service-hub/prometheus-scrape-template.tmpl",
+                                        "path": "/home/cooper/Documents/Unbabel/k8s/prometheus/clusters/service-hub/prometheus-scrape-template.tmpl",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/k8s/prometheus/clusters/service-hub/prometheus-scrape-template.tmpl"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/terraform/aws/staging/resources/rds/pgsql_rds.tf",
+                                        "path": "/home/cooper/Documents/Unbabel/terraform/aws/staging/resources/rds/pgsql_rds.tf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/terraform/aws/staging/resources/rds/pgsql_rds.tf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cooper/Documents/Unbabel/k8s/devops/pypicloud/pypicloud-config.yaml",
+                                        "path": "/home/cooper/Documents/Unbabel/k8s/devops/pypicloud/pypicloud-config.yaml",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Documents/Unbabel/k8s/devops/pypicloud/pypicloud-config.yaml"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -166,7 +354,7 @@
                                 },
                                 {
                                     "id": "workbench.action.openGlobalKeybindings",
-                                    "label": "&&Keyboard Shortcuts"
+                                    "label": "Keyboard Shortcuts"
                                 },
                                 {
                                     "id": "workbench.extensions.action.showRecommendedKeymapExtensions",
@@ -330,10 +518,6 @@
                         "id": "vscode.menubar.separator"
                     },
                     {
-                        "id": "workbench.action.toggleMultiCursorModifier",
-                        "label": "Switch to Ctrl+Click for Multi-Cursor"
-                    },
-                    {
                         "id": "editor.action.insertCursorAbove",
                         "label": "&&Add Cursor Above"
                     },
@@ -356,6 +540,17 @@
                     {
                         "id": "editor.action.selectHighlights",
                         "label": "Select All &&Occurrences"
+                    },
+                    {
+                        "id": "vscode.menubar.separator"
+                    },
+                    {
+                        "id": "workbench.action.toggleMultiCursorModifier",
+                        "label": "Switch to Ctrl+Click for Multi-Cursor"
+                    },
+                    {
+                        "id": "editor.action.toggleColumnSelection",
+                        "label": "Column &&Selection Mode"
                     }
                 ]
             },
@@ -428,7 +623,11 @@
                                     "label": "&&Move Side Bar Right"
                                 },
                                 {
-                                    "id": "workbench.action.togglePanelPosition",
+                                    "id": "workbench.action.positionPanelLeft",
+                                    "label": "Move Panel Left"
+                                },
+                                {
+                                    "id": "workbench.action.positionPanelRight",
                                     "label": "Move Panel Right"
                                 },
                                 {
@@ -532,7 +731,7 @@
                     },
                     {
                         "id": "workbench.view.debug",
-                        "label": "&&Debug"
+                        "label": "&&Run"
                     },
                     {
                         "id": "workbench.view.extensions",
@@ -619,6 +818,28 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.openNextRecentlyUsedEditor",
+                                    "label": "&&Next Used Editor"
+                                },
+                                {
+                                    "id": "workbench.action.openPreviousRecentlyUsedEditor",
+                                    "label": "&&Previous Used Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "workbench.action.nextEditorInGroup",
+                                    "label": "&&Next Editor in Group"
+                                },
+                                {
+                                    "id": "workbench.action.previousEditorInGroup",
+                                    "label": "&&Previous Editor in Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.openNextRecentlyUsedEditorInGroup",
                                     "label": "&&Next Used Editor in Group"
                                 },
@@ -644,45 +865,54 @@
                                 },
                                 {
                                     "id": "workbench.action.focusThirdEditorGroup",
-                                    "label": "Group &&3"
+                                    "label": "Group &&3",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFourthEditorGroup",
-                                    "label": "Group &&4"
+                                    "label": "Group &&4",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusFifthEditorGroup",
-                                    "label": "Group &&5"
+                                    "label": "Group &&5",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusNextGroup",
-                                    "label": "&&Next Group"
+                                    "label": "&&Next Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusPreviousGroup",
-                                    "label": "&&Previous Group"
+                                    "label": "&&Previous Group",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "workbench.action.focusLeftGroup",
-                                    "label": "Group &&Left"
+                                    "label": "Group &&Left",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusRightGroup",
-                                    "label": "Group &&Right"
+                                    "label": "Group &&Right",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusAboveGroup",
-                                    "label": "Group &&Above"
+                                    "label": "Group &&Above",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "workbench.action.focusBelowGroup",
-                                    "label": "Group &&Below"
+                                    "label": "Group &&Below",
+                                    "enabled": false
                                 }
                             ]
                         }
@@ -703,7 +933,7 @@
                     },
                     {
                         "id": "workbench.action.gotoSymbol",
-                        "label": "Go to &&Symbol in File..."
+                        "label": "Go to &&Symbol in Editor..."
                     },
                     {
                         "id": "editor.action.revealDefinition",
@@ -760,7 +990,7 @@
                     }
                 ]
             },
-            "Debug": {
+            "Run": {
                 "items": [
                     {
                         "id": "workbench.action.debug.start",
@@ -839,7 +1069,7 @@
                                     "label": "&&Function Breakpoint..."
                                 },
                                 {
-                                    "id": "editor.debug.action.toggleLogPoint",
+                                    "id": "editor.debug.action.addLogPoint",
                                     "label": "&&Logpoint..."
                                 }
                             ]
@@ -877,7 +1107,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1263,13 +1494,15 @@
                 "label": "Ctrl+PageUp",
                 "userSettingsLabel": "ctrl+pageup"
             },
-            "workbench.action.openNextRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Tab",
-                "userSettingsLabel": "ctrl+tab"
+            "workbench.action.nextEditorInGroup": {
+                "label": "Ctrl+K Ctrl+PageDown",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+pagedown"
             },
-            "workbench.action.openPreviousRecentlyUsedEditorInGroup": {
-                "label": "Ctrl+Shift+Tab",
-                "userSettingsLabel": "ctrl+shift+tab"
+            "workbench.action.previousEditorInGroup": {
+                "label": "Ctrl+K Ctrl+PageUp",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+pageup"
             },
             "workbench.action.focusFirstEditorGroup": {
                 "label": "Ctrl+1",
@@ -1423,19 +1656,20 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#232834",
+    "themeBackground": "#31312e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/cooper/Documents/Unbabel/heimdall",
-            "backupPath": "/home/cooper/.config/Code - OSS/Backups/b43b052d095265bfaa865ebd2a445e35",
+            "folder": "file:///home/cooper/Documents/Unbabel/onomata",
+            "backupPath": "/home/cooper/.config/Code - OSS/Backups/93a00a2fc4c3688455cdb9b4b64f8c01",
             "uiState": {
                 "mode": 1,
-                "x": 859,
-                "y": 29,
-                "width": 841,
-                "height": 925
+                "x": 0,
+                "y": 0,
+                "width": 1707,
+                "height": 960
             }
         },
         "openedWindows": []
-    }
+    },
+    "pickerWorkingDir": "/home/cooper/Documents"
 }

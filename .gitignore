@@ -17,8 +17,12 @@
 !.config/*/*
 !.config/nitrogen/wallpapers/*
 !.config/polybar/scripts/*
+.config/Slack/
+.config/Slack/*
 
 # Tmux
+.tmux/resurrect/
+.tmux/resurrect/*
 !.tmux
 !.tmux/*
 !.tmux/*/*

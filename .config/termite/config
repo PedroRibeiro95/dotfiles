@@ -57,42 +57,27 @@ scrollback_lines = 10000
 highlight = #2f2f2f
 
 # special
-foreground      = #ff9d44
-foreground_bold = #ff9d44
-cursor          = #ff9d44
-background      = #152b2b
+foreground      = #fb5845
+foreground_bold = #fb5845
+cursor          = #fb5845
+background      = #2e251c
 
-# black
-color0  = #a55918
-color8  = #944511
-
-# red
-color1  = #a55918
-color9  = #ff5d03
-
-# green
-color2  = #c8511a
-color10 = #eabe70
-
-# yellow
-color3  = #3f4143
-color11 = #60ab9a
-
-# blue
-color4  = #5d6062
-color12 = #56b39f
-
-# magenta
-color5  = #828688
-color13 = #d29965
-
-# cyan
-color6  = #acb1b5
-color14 = #4a9e78
-
-# white
-color7  = #c68b22
-color15 = #fa3b00
+color0 = #413326
+color1 = #f5a75f
+color2 = #9f6d4e
+color3 = #7e6b4d
+color4 = #947e66
+color5 = #713c2a
+color6 = #ac946e
+color7 = #dabd85
+color8 = #98432f
+color9 = #cba96e
+color10 = #cf4a39
+color11 = #ed5641
+color12 = #ff6b52
+color13 = #fc8a67
+color14 = #fead7a
+color15 = #d46450
 
 [hints]
 #font = Monospace 12

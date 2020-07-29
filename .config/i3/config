@@ -207,14 +207,14 @@ mode "resize" {
 }
 
 # Autostart applications
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b --blur-background
+exec --no-startup-id nitrogen --restore; sleep 1; compton -b --blur-background --vsync drm/opengl/opengl-oml
 exec --no-startup-id nm-applet
 # exec --no-startup-id xfce4-power-manager
-exec --no-startup-id pamac-tray
+# exec --no-startup-id pamac-tray
 exec --no-startup-id clipit
-exec_always --no-startup-id ff-theme-util
+# exec_always --no-startup-id ff-theme-util
 exec_always --no-startup-id fix_xcursor
-exec_always --no-startup-id $HOME/.config/polybar/i3wmthemer_bar_launch.sh
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Theme colors
 client.focused          #272827 #272827 #657b83 #272827 #272827
@@ -249,7 +249,7 @@ mode "$mode_gaps_inner" {
         bindsym 0     gaps inner current set 0
 
         bindsym Shift+plus  gaps inner all plus 5
-        bindsym Shift+minus gaps inner all minus 5
+        bindsym Shift+minus gaps inner all minus 7
         bindsym Shift+0     gaps inner all set 0
 
         bindsym Return mode "default"
@@ -287,10 +287,8 @@ bindsym XF86TouchpadOn exec --no-startup-id synclient Touchpadoff=0
 bindsym XF86TouchpadOff exec --no-startup-id synclient Touchpadoff=1
 
 # Sets keyboard layout to MacBook Portuguese
-exec setxkbmap -layout us -variant intl
-
-# Activates xscreensaver
-# exec xscreensaver -no-splash &
+bindsym $mod+Shift+i exec setxkbmap -layout us -variant intl
+bindsym $mod+Shift+u exec setxkbmap -layout gb -variant intl
 
 # Keybinds for resizing panes
 # Resizing by 1
@@ -308,8 +306,8 @@ bindsym $mod+Ctrl+Shift+Left resize grow width 10 px
 
 # Border colors for terminal
 for_window [class=Termite] border pixel 2
-client.focused #a55918 #a55918 #ffffff #a55918 #a55918
-client.unfocused #623209 #623209 #ffffff #623209 #623209
+client.focused #d6795a #d6795a #ffffff #d6795a #d6795a
+client.unfocused #46272d #46272d #ffffff #46272d #46272d
 
 # Take print screen
 bindsym --release Print exec --no-startup-id scrot -u
@@ -319,7 +317,16 @@ bindsym --release $mod+Print exec --no-startup-id $HOME/.config/i3/scripts/scrot
 bindsym $mod+Shift+h exec --no-startup-id betterlockscreen -l 
 
 # Set resolution for double screen
-exec --no-startup-id $HOME/.screenlayout/layout.sh
+# exec --no-startup-id $HOME/.screenlayout/layout2.sh
 
 # Activate redshift
-exec --no-startup-id redshift -l 38.776366:-9.279563
+# exec --no-startup-id redshift -o 
+
+# Increase mouse acceleration
+exec --no-startup-id xinput --set-prop 'Elan Touchpad' 'libinput Accel Speed' 0.75
+
+# move focused workspace between monitors
+bindsym $mod+Ctrl+greater move workspace to output right
+bindsym $mod+Ctrl+less move workspace to output left
+bindsym $mod+Ctrl+i move workspace to output up 
+bindsym $mod+Ctrl+k move workspace to output down
