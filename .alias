@@ -1,0 +1,26 @@
+alias open=xdg-open
+
+# git
+
+alias gs="git status"
+alias ga="git add"
+alias gc="git commit"
+alias gp="git push"
+alias gpl="git pull"
+
+# kubectl
+
+alias k="kubectl"
+alias kg="kubectl get"
+alias kd="kubectl describe"
+alias ka="kubectl apply"
+alias kni="kubectl get nodes -o custom-columns=NAME:.metadata.name,ZONE:'.metadata.labels.failure-domain\.beta\.kubernetes\.io/zone',TAINTS:'.spec.taints'"
+
+# League of Legends
+alias league="/opt/wine-lol/bin/wine ~/win32/drive_c/Riot\ Games/League\ of\ Legends/LeagueClient.exe"
+
+# ssh-add
+ssh-add() {
+    eval $(ssh-agent) 
+    /usr/bin/ssh-add "$1"
+}

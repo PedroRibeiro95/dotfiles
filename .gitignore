@@ -54,3 +54,6 @@
 */.gitignore/
 */.github/
 */.gitignore
+
+# Personal dotfiles
+!.alias
