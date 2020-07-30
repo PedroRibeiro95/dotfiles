@@ -20,6 +20,8 @@ bindsym $mod+Shift+q kill
 
 # start program launcher
 bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+Ctrl+w exec --no-startup-id rofi -show window
+bindsym $mod+Ctrl+s exec --no-startup-id rofi -show ssh
 
 # change focus
 bindsym $mod+j focus left
@@ -125,7 +127,7 @@ bindsym $mod+Shift+7 move container to workspace $ws7; workspace $ws7
 bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 
 # Open specific applications in floating mode
-for_window [title="alsamixer"] floating enable border pixel 1
+#for_window [title="alsamixer"] floating enable border pixel 1
 for_window [class="Calamares"] floating enable border normal
 for_window [class="Clipgrab"] floating enable
 for_window [title="File Transfer*"] floating enable
@@ -207,7 +209,7 @@ mode "resize" {
 }
 
 # Autostart applications
-exec --no-startup-id nitrogen --restore; sleep 1; compton -b --blur-background --vsync drm/opengl/opengl-oml
+exec --no-startup-id nitrogen --restore; sleep 1; picom -b --experimental-backends --backend glx --vsync
 exec --no-startup-id nm-applet
 # exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id pamac-tray
@@ -273,7 +275,7 @@ exec --no-startup-id mate-power-manager
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -D pulse sset Master 5%+ unmute
 bindsym XF86AudioLowerVolume exec --no-startup-id amixer -D pulse sset Master 5%- unmute
-bindsym XF86AudioMute exec --no-startup-id amixer -q set Master toggle
+bindsym XF86AudioMute exec --no-startup-id amixer -D pulse set Master 1+ toggle
 
 # Control brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -ctrl intel_backlight -inc 5
@@ -330,3 +332,6 @@ bindsym $mod+Ctrl+greater move workspace to output right
 bindsym $mod+Ctrl+less move workspace to output left
 bindsym $mod+Ctrl+i move workspace to output up 
 bindsym $mod+Ctrl+k move workspace to output down
+
+# Start dunst
+exec --no-startup-id dunst

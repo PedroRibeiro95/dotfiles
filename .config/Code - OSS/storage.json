@@ -63,7 +63,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -72,7 +73,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/home/cooper/Documents/Unbabel/onomata",
                                         "external": "file:///home/cooper/Documents/Unbabel/onomata",
                                         "path": "/home/cooper/Documents/Unbabel/onomata",
                                         "scheme": "file"
@@ -322,8 +322,7 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -394,7 +393,8 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder"
+                        "label": "Close &&Folder",
+                        "enabled": false
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -796,7 +796,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1659,14 +1660,13 @@
     "themeBackground": "#31312e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/cooper/Documents/Unbabel/onomata",
-            "backupPath": "/home/cooper/.config/Code - OSS/Backups/93a00a2fc4c3688455cdb9b4b64f8c01",
+            "backupPath": "/home/cooper/.config/Code - OSS/Backups/1596040575334",
             "uiState": {
                 "mode": 1,
                 "x": 0,
                 "y": 0,
                 "width": 1707,
-                "height": 960
+                "height": 932
             }
         },
         "openedWindows": []

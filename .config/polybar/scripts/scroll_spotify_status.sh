@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # see man zscroll for documentation of the following parameters
-zscroll -l 30 \
+zscroll -l 25 \
         --delay 0.3 \
         --match-command "playerctl status spotify" \
         --match-text "Playing" "--scroll 1" \
