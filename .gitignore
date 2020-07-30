@@ -41,8 +41,9 @@
 !.xinitrc
 !.Xresources
 
-# Pacman packages
+# Packages
 !.pacman
+!.yay
 
 # Images
 !screenshots/
