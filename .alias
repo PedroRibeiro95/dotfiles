@@ -24,3 +24,12 @@ ssh-add() {
     eval $(ssh-agent) 
     /usr/bin/ssh-add "$1"
 }
+
+# Firefox
+alias firefox="DRI_PRIME=1 /usr/bin/firefox"
+
+# sys_analysis_tools
+sys_analysis_tools() {
+    echo "Install 'sysstat' if you haven't already"
+    echo "uptime\ndmesg\nvmstat 1\nmpstat -P ALL 1\npidstat 1\niostat -xz 1\nfree -m\nsar -n DEV 1"
+}

@@ -1,16 +1,16 @@
 [urgency_low]
-    background = "#2e251c"
-    foreground = "#fb5845"
+    background = "#131211"
+    foreground = "#afacac"
     timeout = 5
 
 [urgency_normal]
-    background = "#2e251c"
-    foreground = "#fb5845"
+    background = "#131211"
+    foreground = "#afacac"
     timeout = 10
 
 [urgency_critical]
-    background = "{color14}"
-    foreground = "#2e251c"
+    background = "#131211"
+    foreground = "#afacac"
     timeout = 0
 
 [global]
@@ -31,7 +31,7 @@
     # Positive y value is measured from the top of the screen
     geometry = "600x6-10+42"
 
-    font = Fira Mono 14
+    font = Fira Mono 11
     markup = yes
     plain_text = no             # Treat message as plain text
     sort = yes                  # Sort messages by urgency
@@ -41,7 +41,7 @@
     show_age_threshold = 60     # Show if message is older than x seconds (-1 to disable)
     word_wrap = yes             # Split notifications into multiple lines if they don't fit into geometry
     ignore_newline = no         # Ignore "\n"
-    transparency = 50           # The transparency of the window. 0 (opaque) to 100 (transparent) - requires compositing window manager (xcompmgr, compiz, compton, etc)
+    transparency = 0            # The transparency of the window. 0 (opaque) to 100 (transparent) - requires compositing window manager (xcompmgr, compiz, compton, etc)
     shrink = yes                # Shrink window if it's smaller than the width (ignored if width is 0)
     monitor = 0                 # Display notifications on the monitor indicated (0 is default)
     follow = mouse              # Follow mouse/keyboard/none
@@ -53,14 +53,14 @@
     horizontal_padding = 8      # Horizontal padding
     separator_color = frame     # Color for separator: auto/foreground/frame/X color
     icon_position = left        # Align icons left/right/off
-    corner_radius = 0
+    corner_radius = 25
 
     idle_threshold = 120        # Don't remove messages if the user is idle (no mouse or keyboard input) for longer than idle_threshold seconds
     sticky_history = yes        # Make notifications remain until clicked on (yes) or timeout as normal (no) when recalled from history
     history_length = 20         # Maximum amount of notifications kept in history
 
     frame_width = 2
-    frame_color = "#fb5845"
+    frame_color = "#afacac"
 
     max_icon_size = 64
     icon_path = /usr/share/icons/Numix-Circle/48/apps/:/usr/share/icons/Adwaita/32x32/apps/:/usr/share/icons/Adwaita/32x32/status/:/usr/share/icons/Adwaita/32x32/devices/

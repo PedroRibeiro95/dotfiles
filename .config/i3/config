@@ -6,7 +6,7 @@ new_float normal
 hide_edge_borders smart 
 
 bindsym $mod+u border none
-bindsym $mod+y border pixel 1
+bindsym $mod+y border pixel 2
 bindsym $mod+n border normal
 
 font xft:URWGothic-Book 11
@@ -209,7 +209,9 @@ mode "resize" {
 }
 
 # Autostart applications
-exec --no-startup-id nitrogen --restore; sleep 1; picom -b --experimental-backends --backend glx --vsync
+# exec --no-startup-id nitrogen --restore; sleep 1; picom -b --vsync
+# exec --no-startup-id nitrogen --restore; sleep 1; picom -b --experimental-backends --backend glx --vsync
+exec --no-startup-id $HOME/.fehbg
 exec --no-startup-id nm-applet
 # exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id pamac-tray
@@ -219,13 +221,13 @@ exec_always --no-startup-id fix_xcursor
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Theme colors
-client.focused          #272827 #272827 #657b83 #272827 #272827
-client.focused_inactive #272827 #272827 #657b83 #272827 #272827
-client.unfocused        #272827 #272827 #657b83 #272827 #272827
-client.urgent           #272827 #272827 #657b83 #272827 #272827
-client.placeholder      #272827 #272827 #657b83 #272827 #272827
+client.focused          #cbb8b9 #cbb8b9 #b2b2b2 #cbb8b9 #cbb8b9
+client.focused_inactive #cbb8b9 #cbb8b9 #b2b2b2 #cbb8b9 #cbb8b9
+client.unfocused        #3f3f3f #3f3f3f #b2b2b2 #3f3f3f #3f3f3f
+client.urgent           #cbb8b9 #cbb8b9 #b2b2b2 #cbb8b9 #cbb8b9
+client.placeholder      #cbb8b9 #cbb8b9 #b2b2b2 #cbb8b9 #cbb8b9
 
-# client.background       #272827
+# client.background       #cbb8b9
 
 # Gaps
 gaps inner 10
@@ -308,8 +310,8 @@ bindsym $mod+Ctrl+Shift+Left resize grow width 10 px
 
 # Border colors for terminal
 for_window [class=Termite] border pixel 2
-client.focused #d6795a #d6795a #ffffff #d6795a #d6795a
-client.unfocused #46272d #46272d #ffffff #46272d #46272d
+# client.focused #d6795a #d6795a #ffffff #d6795a #d6795a
+# client.unfocused #46272d #46272d #ffffff #46272d #46272d
 
 # Take print screen
 bindsym --release Print exec --no-startup-id scrot -u
@@ -325,7 +327,8 @@ bindsym $mod+Shift+h exec --no-startup-id betterlockscreen -l
 # exec --no-startup-id redshift -o 
 
 # Increase mouse acceleration
-exec --no-startup-id xinput --set-prop 'Elan Touchpad' 'libinput Accel Speed' 0.75
+# exec --no-startup-id xinput set-prop 'Elan Touchpad' 'libinput Accel Speed' 0.75
+# exec --no-startup-id xinput set-prop 'M720 Triathlon Mouse' 'libinput Accel Speed' 0.75
 
 # move focused workspace between monitors
 bindsym $mod+Ctrl+greater move workspace to output right
@@ -335,3 +338,6 @@ bindsym $mod+Ctrl+k move workspace to output down
 
 # Start dunst
 exec --no-startup-id dunst
+
+# Set up scale factor
+exec --no-startup-id xrandr --output eDP-1 --scale 1.33x1.33 

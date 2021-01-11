@@ -54,30 +54,46 @@ scrollback_lines = 10000
 #background = rgba(63, 63, 63, 0.8)
 
 # If unset, will reverse foreground and background
-highlight = #2f2f2f
+# highlight = #edb879
 
 # special
-foreground      = #fb5845
-foreground_bold = #fb5845
-cursor          = #fb5845
-background      = #2e251c
+# special
+foreground      = #cbb8b9
+foreground_bold = #cbb8b9
+cursor          = #cbb8b9
+background      = #282c35
 
-color0 = #413326
-color1 = #f5a75f
-color2 = #9f6d4e
-color3 = #7e6b4d
-color4 = #947e66
-color5 = #713c2a
-color6 = #ac946e
-color7 = #dabd85
-color8 = #98432f
-color9 = #cba96e
-color10 = #cf4a39
-color11 = #ed5641
-color12 = #ff6b52
-color13 = #fc8a67
-color14 = #fead7a
-color15 = #d46450
+# black
+color0  = #2a2a2a
+color8  = #8f7172
+
+# red
+color1  = #9684a3
+color9  = #ae5064
+
+# green
+color2  = #b69abf
+color10 = #9684a3
+
+# yellow
+color3  = #ae5064
+color11 = #5d5b5b
+
+# blue
+color4  = #edb879
+color12 = #edb879
+
+# magenta
+color5  = #666666
+color13 = #9684a3
+
+# cyan
+color6  = #ae5064
+color14 = #8f7172
+
+# white
+color7  = #e29ec5
+color15 = #666666
 
 [hints]
 #font = Monospace 12

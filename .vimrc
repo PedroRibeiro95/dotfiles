@@ -13,6 +13,8 @@ au BufWrite /private/etc/pw.* set nowritebackup nobackup
 
 let skip_defaults_vim=1
 
+set t_Co=16
+
 " Show line number
 set number
 set number relativenumber
